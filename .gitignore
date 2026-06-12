@@ -1,0 +1,17 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Secrets / local var files
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# CLI overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
