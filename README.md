@@ -18,7 +18,7 @@ cat << TERRAFORM > main.tf
 
 module "mxroute-cloudflare" {
   source = "github.com/demon/terraform-mxroute-cloudflare?ref=v0.1"
-  domain = example.com
+  domain = "example.com"
 }
 
 TERRAFORM
